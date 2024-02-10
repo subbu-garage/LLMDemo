@@ -1,0 +1,89 @@
+    1  mkdir backend
+    2  cd backend
+    3  wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/main/backend/requirements.txt
+    4  pip install -r requirements.txt
+    5  wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/styles/backend/main.py
+    6  uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+    7  wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/styles/backend/Dockerfile
+    8  docker build -t llm
+    9  docker run -p 8000:8000 llm
+   10  docker build -t llm
+   11  docker run -p 8000:8000 llm.
+   12  docker build -t llm .
+   13  docker run -p 8000:8000 llm
+   14  docker ps
+   15  docker run -p 8000:8000 llm
+   16  cd
+   17  cd ..
+   18  npx create-react-app frontend
+   19  cd frontend
+   20  pwd
+   21  cd workspace
+   22  cd ..
+   23  cd /workspace/LLMDemo/backend
+   24  cd ..
+   25  npx create-react-app frontend
+   26  cd frontend
+   27  npm start
+   28  cd frontend
+   29  cd $GITPOD_REPO_ROOT/frontend/src
+   30  rm -f App.js
+   31  rm -f App.css
+   32  rm -f environment.js
+   33  rm -f  index.js
+   34  wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/styles/frontend/src/App.css
+   35  wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/styles/frontend/src/App.js
+   36  wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/styles/frontend/src/environment.js
+   37  wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/main/frontend/src/index.js
+   38  cd $GITPOD_REPO_ROOT
+   39  wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/styles/update_url.sh
+   40  chmod +x update_url.sh
+   41  ./update_url.sh
+   42  docker compose build
+   43  cd $GITPOD_REPO_ROOT/frontend/src
+   44  npm start
+   45  docker compose build
+   46  cd ..
+   47  cd backend
+   48  npm start
+   49  cd src
+   50  docker compose build
+   51  docker build -t llm .
+   52  docker run -p 8000:8000 llm
+   53  chmod +x update_url.sh
+   54  cd ..
+   55  chmod +x update_url.sh
+   56  ./update_url.sh
+   57  docker run -p 3000:3000 react-frontend
+   58  docker build -t react-frontend .
+   59  cd $GITPOD_REPO_ROOT/frontend
+   60  cd ..
+   61  docker compose build
+   62  cd $GITPOD_REPO_ROOT
+   63  docker compose build
+   64  docker ps
+   65  docker compose build
+   66  cd $GITPOD_REPO_ROOT
+   67  docker compose build
+   68  pwd
+   69  ls
+   70  wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/main/docker-compose.yml
+   71  docker compose build
+   72  ls
+   73  docker compose build
+   74  docker compose up
+   75* 
+   76  cd $GITPOD_REPO_ROOT/frontend
+   77  wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/main/frontend/Dockerfile
+   78  cd ..
+   79  ls
+   80  docker compose build
+   81  docker compose up
+   82  git add
+   83  git add .
+   84  git commit -m “Created a chatbot”
+   85  git commit -m 'Created a chatbot'
+   86  git push
+   87  docker compose build
+   88  docker compose up
+   89  history >> command-used.txt
