@@ -79,7 +79,6 @@
    79  ls
    80  docker compose build
    81  docker compose up
-   82  git add
    83  git add .
    84  git commit -m “Created a chatbot”
    85  git commit -m 'Created a chatbot'
@@ -87,3 +86,79 @@
    87  docker compose build
    88  docker compose up
    89  history >> command-used.txt
+
+Clean up image 
+docker image rm -f <docker image name>
+
+
+
+Monika Kusumanchi
+9:23 AM
+cd backend
+wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/styles/backend/Dockerfile
+docker build -t llm .
+Monika Kusumanchi
+9:24 AM
+docker run -p 8000:8000 llm
+Meghana Chebolu
+9:39 AM
+https://makersuite.google.com/u/2/app/apikey
+Meghana Chebolu
+9:42 AM
+https://makersuite.google.com/app/apikey
+Monika Kusumanchi
+9:48 AM
+cd ..
+npx create-react-app frontend
+Monika Kusumanchi
+9:50 AM
+cd frontend
+npm start
+Monika Kusumanchi
+9:52 AM
+cd $GITPOD_REPO_ROOT/frontend/src
+Monika Kusumanchi
+9:53 AM
+rm -f App.js
+rm -f App.css
+rm -f environment.js
+rm -f  index.js
+Monika Kusumanchi
+10:00 AM
+wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/styles/frontend/src/App.css
+wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/styles/frontend/src/App.js
+wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/styles/frontend/src/environment.js
+Monika Kusumanchi
+10:01 AM
+wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/main/frontend/src/index.js
+cd $GITPOD_REPO_ROOT
+Monika Kusumanchi
+10:04 AM
+wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/styles/update_url.sh
+chmod +x update_url.sh
+Monika Kusumanchi
+10:08 AM
+./update_url.sh
+Monika Kusumanchi
+10:13 AM
+cd $GITPOD_REPO_ROOT/frontend
+wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/main/frontend/Dockerfile
+Monika Kusumanchi
+10:15 AM
+docker build -t react-frontend .
+Monika Kusumanchi
+10:16 AM
+docker run -p 3000:3000 react-frontend
+Monika Kusumanchi
+10:19 AM
+cd $GITPOD_REPO_ROOT
+wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/main/docker-compose.yml
+Monika Kusumanchi
+10:21 AM
+docker compose build
+docker compose up
+Monika Kusumanchi
+10:52 AM
+git add .
+git commit -m “Created a chatbot”
+git push
